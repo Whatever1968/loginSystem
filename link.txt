@@ -1,0 +1,25 @@
+
+<meta charset="UTF-8">	
+<!--CREATED BY ROD TREVINO CODIFYADADEMY.COM CONTACT ROD @ rodneytrevino@yahoo.com-->
+
+<!--BELOW IS THE ANIMATION LINK-->
+<link rel="stylesheet" href="css/animate.css">
+
+<!--BELOW IS THE JQUERY LINK-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<!--BELOW IS THE VIEWPORT LINK-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!--BELOW IS THE BOOTSTRAP LINK-->
+<link rel="stylesheet" href="css/bootstrap.css">
+
+<!--BELOW IS THE CSS LINK-->
+<link rel="stylesheet" href="css/main.css">
+
+
+<!--BELOW IS THE JavaScript LINK-->
+<script src="js/main.js"></script>
+		
+		
+	
