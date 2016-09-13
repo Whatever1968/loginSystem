@@ -29,25 +29,29 @@ var password = document.getElementById("password").value
 		}
 	}console.log(" Invalid username or password, please try again")
 }
+// Project:  create a funcjtion that registers a user on your previous login application.  Test to ensure that the username is not already taken and the the password is at least 8 characters long.
 
+// register functionality
 function registerUser() {
-	var registerUser = document.getElementById("newUser").value
-	var registerPassword = document.getElementById("newPassword").value
-	var newUser = {
-		username: registerUser,
-		password: registerPassword
+// retrieve data input from the form
+var registerUser = document.getElementById("newUser").value
+var registerPassword = document.getElementById("newPassword").value
+
+var newUser = {
+	username: registerUser,
+	password: registerPassword
 	}
 
-	for(i = 0; i < objPeople.length; i++) {
-		if(registerUser == objPeople[i].username) {
-			alert("Usernae already exist.  Please choose another")
+	for(i = 0; i < objPeople.length; i++){
+		if(registerUser == objPeople[i].username){
+			alert("That username is already taken please choose another ")
 			return
-		} else if(registerPassword.length < 8) {
-			alert("Password is too short, please select 8 characters or more")
+		}else if(registerPassword.length < 8){
+			alert("Passwords must be 8 characters or more")
 			return
 		}
-	}
 
-	objPeople.push(newUser)
-	console.log(objPeople)
+	}
+		objPeople.push(newUser)
+		console.log(objPeople)
 }
